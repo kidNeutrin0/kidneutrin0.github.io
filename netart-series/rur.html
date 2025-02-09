@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <title>testing absolute pos. with collage elements</title>
+    </head>
+    <body style="background-color: brown">
+        <div
+            style="
+                width: 1600px;
+                height: 900px; /*background-color: rgba(0,175,0,1);*/
+                margin-left: auto;
+                margin-right: auto;
+                position: relative;
+                background-image: url(images/la-patriote-rur1-200h.png);
+                border-left: double rgba(25, 25, 25, 0.28) 5px;
+                top: 75px;
+            ">
+            <div style="position: absolute; height: 700px; left: 100px; top: 0px">
+                <img src="images/la-patriote-rur1-700h.png" />
+            </div>
+            <div style="position: absolute; height: 700px; left: 550px; top: 0px">
+                <img src="images/la-patriote-rur1-700h.png" />
+            </div>
+
+            <div style="height: 900px; width: 480px; position: absolute; bottom: 0; right: -20px">
+                <img src="images/la-patriote-rur2-940h.png" height="900" />
+            </div>
+
+            <div style="height: 800px; width: 1110px; position: absolute; bottom: 0; left: 200px">
+                <img src="images/bbc-rur-edited800h.png" />
+            </div>
+
+            <div style="height: 600px; width: 600px; position: absolute; top: 300px; left: 10px">
+                <img src="images/bot-graffiti-edited600h.png" />
+            </div>
+            <div
+                style="
+                    height: 200px;
+                    width: 1600px;
+                    position: absolute;
+                    bottom: -2px;
+                    right: 0;
+                    background-image: url(images/la-patriote-rur1-200h.png);
+                ">
+                <img src="images/la-patriote-rur1-200h.png" />
+            </div>
+            <div style="position: absolute; bottom: 50px; width: 1400px; left: 100px">
+                <p
+                    style="
+                        font-size: 3.25em;
+                        color: silver;
+                        text-align: center;
+                        font-family: &quot;Times New Roman&quot;, Times, serif;
+                        text-shadow: 9px 5px 3px black;
+                        background-color: rgba(25, 25, 25, 0.18);
+                    ">
+                    <a href="putinsux.html">L'AUTOMATE QU FAIT L'EMERVILLEMENT DE LONDRES</a>
+                </p>
+            </div>
+        </div>
+    </body>
+</html>
