@@ -5,10 +5,9 @@
         <title>testing absolute pos. with collage elements</title>
     </head>
     <body style="background-color: brown">
-        <div
-            style="
+        <div style="
                 width: 1600px;
-                height: 900px; /*background-color: rgba(0,175,0,1);*/
+                height: 900px;
                 margin-left: auto;
                 margin-right: auto;
                 position: relative;
@@ -16,7 +15,7 @@
                 border-left: double rgba(25, 25, 25, 0.28) 5px;
                 top: 75px;
             ">
-            <div style="position: absolute; height: 700px; left: 100px; top: 0px">
+            <div style="position: absolute; height: 700px; left: 100px; top: 0px; z-index: 99">
                 <img src="images/la-patriote-rur1-700h.png" />
             </div>
             <div style="position: absolute; height: 700px; left: 550px; top: 0px">
@@ -27,7 +26,7 @@
                 <img src="images/la-patriote-rur2-940h.png" height="900" />
             </div>
 
-            <div style="height: 800px; width: 1110px; position: absolute; bottom: 0; left: 200px">
+            <div style="height: 800px; width: 1110px; position: absolute; bottom: 0; left: 200px; z-index: 100">
                 <img src="images/bbc-rur-edited800h.png" />
             </div>
 
